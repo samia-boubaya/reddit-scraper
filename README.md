@@ -73,7 +73,7 @@ The main data fields to extract from the Reddit Post :
 
 ---
 
-## ⭐ **FILTER**
+## ⭐ **SEARCH FILTER**
 
 | Filter       | What it does                                             | Use it when                                      |
 |--------------|----------------------------------------------------------|-------------------------------------------------|
@@ -85,7 +85,7 @@ The main data fields to extract from the Reddit Post :
 
 ---
 
-## ⭐ **PERIOD**
+## ⭐ **PERIOD FILTER**
 
 | Filter       | What it does                                             | Use it when                                      |
 |--------------|----------------------------------------------------------|-------------------------------------------------|
@@ -111,12 +111,12 @@ The main data fields to extract from the Reddit Post :
 
 | Step | Instruction |
 |------|-------------|
-| 01  | Run the code |
-| 02  | Input what you want to search (example: `"music"`) |
-| 03  | Input the Reddit search filter: `"Relevance"`, `"Hot"`, `"Top"`, `"New"`, `"Comment count"` |
-| 04  | Input the time filter: `"All time"`, `"Past year"`, `"Past month"`, `"Past week"`, `"Today"`, `"Past hour"` |
-| 05  | Input the limit of how many posts you want to extract (example: `"17"`) |
-| 06  | Use the CSV file for data analysis and access the post visual content files in `../data/visuals/` |
+| **01**  | Run the code |
+| **02**  | Input what you want to search (example: `"music"`) |
+| **03**  | Input the Reddit search filter: `"Relevance"`, `"Hot"`, `"Top"`, `"New"`, `"Comment count"` |
+| **04**  | Input the time filter: `"All time"`, `"Past year"`, `"Past month"`, `"Past week"`, `"Today"`, `"Past hour"` |
+| **05**  | Input the limit of how many posts you want to extract (example: `"17"`) |
+| **06**  |Wait for the automatic download of visuals then check all saved media in `../data/visuals/` and use the CSV for analysis  |
 
 ---
 
