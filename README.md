@@ -109,7 +109,7 @@ The main data fields to extract from the Reddit Post :
 
 ## ⭐ **HOW TO USE - STEPS**
 
-| Step | Description |
+| Step | Instruction |
 |------|-------------|
 | 01  | Run the code |
 | 02  | Input what you want to search (example: `"music"`) |
