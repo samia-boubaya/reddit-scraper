@@ -168,16 +168,16 @@ This guide shows how to install the required tools, clone the repository, and ru
    https://www.python.org/downloads/
 2. **Windows only**:  
    ✔️ Check **“Add Python to PATH”** during installation.
-3. **Linux**:
+2. **Linux**:
    ```bash
    sudo apt install python3 python3-pip
-4. **Verify installation:**
+3. **Verify installation:**
 python --version
 pip --version
 
 ---
 
-## STEP 3 Install Git and Git Bash
+## STEP 3️⃣ Install Git and Git Bash
 1. Download Git:
 https://git-scm.com/downloads
 
@@ -190,7 +190,7 @@ git --version
 
 ---
 
-## Step 4 – Create GitHub Account and Fork the repository
+## Step 4️⃣ – Create GitHub Account and Fork the repository
 4.1. Create a Github account
 - Go to github.com
 - create an account
@@ -200,14 +200,14 @@ git --version
 - Click **Fork** (top-right).
 - You will be redirected to your forked repository : https://github.com/<your-username>/<repository-name>
 ---
-## STEP 5 Install GitHub Desktop
+## STEP 5️⃣ Install GitHub Desktop
 1. Download & Install Github Desktop https://desktop.github.com/
 2. Sign in with your GitHub account.
 
 ---
 
-## Step 6 – Clone the Repository
-1. Option A – Clone with GitHub Desktop
+## Step 6️⃣ – Clone the Repository
+1. Option A – Clone with **GitHub Desktop**
 - Open GitHub Desktop.
 - File → Clone repository…
 - Select your fork (or paste the URL).
@@ -219,13 +219,13 @@ git --version
 - type and enter : git clone https://github.com/<your-username>/<repo-name>.git
 - type and enter : cd <repo-name>
 
-## Step 7 – Open the Project in VS Code
+## Step 7️⃣ – Open the Project in VS Code
 1. Open VS Code from Github Desktop
 2. Select the cloned repository folder **reddit-scraper**
 
 ---
 
-## Step 8 – Install VS Code Extensions
+## Step 8️⃣ – Install VS Code Extensions
 1. Open Extensions (Ctrl+Shift+X / Cmd+Shift+X)
 
 2. Install:
@@ -236,7 +236,7 @@ git --version
 
 ---
 
-## STEP 9 - RUN THE CODE
+## STEP 9️⃣ - RUN THE CODE
 1. Open **main_scraper.ipynb**
 2. Go to 🪜 **STEPS EXTRACT+DOWNLOAD**
 3. Run the code cell **🗃️ 1 - FIX EXTRACTION OF GIF CAROUSEL**
@@ -248,7 +248,7 @@ git --version
 
 ---
 
-## STEP 10 - Use CSVs files & visual content
+## STEP 🔟 - Use CSVs files & visual content
 1. All of the visual content files are in the repository directory `../data/visuals/`
 2. All of the `CSV`s files are in the repository directory `../data/reddit/`
 3. Use them however you like :-)
