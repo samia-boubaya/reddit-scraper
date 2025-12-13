@@ -142,3 +142,114 @@ The main data fields to extract from the Reddit Post :
 | **04**   | `"Past week"` |
 | **05**   | `"Today"` |
 | **06**   | `"Past hour"` |
+
+---
+
+# 🚀 Setup Guide: Install to Run `main_scraper.ipynb` in VS Code
+
+This guide shows how to install the required tools, clone the repository, and run the Jupyter notebook in VS Code.
+
+---
+
+## STEP 1️⃣ Install Visual Studio Code
+
+1. Download VS Code:  
+   https://code.visualstudio.com/
+2. Install it:
+   - **Windows**: Run the `.exe`, accept defaults.
+   - **macOS**: Drag **Visual Studio Code.app** into **Applications**.
+   - **Linux**: Install the `.deb` file or use your package manager.
+
+---
+
+## STEP 2️⃣ Install Python (with pip)
+
+1. Download the latest **Python 3**:  
+   https://www.python.org/downloads/
+2. **Windows only**:  
+   ✔️ Check **“Add Python to PATH”** during installation.
+3. **Linux**:
+   ```bash
+   sudo apt install python3 python3-pip
+4. **Verify installation:**
+python --version
+pip --version
+
+---
+
+## STEP 3 Install Git and Git Bash
+1. Download Git:
+https://git-scm.com/downloads
+
+2. Windows:
+- Install Git for Windows (includes Git Bash).
+- Keep default installer options.
+
+3. **Verify:**
+git --version
+
+---
+
+## Step 4 – Create GitHub Account and Fork the repository
+4.1. Create a Github account
+- Go to github.com
+- create an account
+
+4.2. Fork the repository 
+- Open the original repository in your browser.
+- Click **Fork** (top-right).
+- You will be redirected to your forked repository : https://github.com/<your-username>/<repository-name>
+---
+## STEP 5 Install GitHub Desktop
+1. Download & Install Github Desktop https://desktop.github.com/
+2. Sign in with your GitHub account.
+
+---
+
+## Step 6 – Clone the Repository
+1. Option A – Clone with GitHub Desktop
+- Open GitHub Desktop.
+- File → Clone repository…
+- Select your fork (or paste the URL).
+- Choose a local path (e.g. Documents/GitHub/<repo-name>).
+- Click Clone.
+
+2. Option B – Clone with Git Bash / Terminal
+- type and enter : cd ~/Documents/GitHub
+- type and enter : git clone https://github.com/<your-username>/<repo-name>.git
+- type and enter : cd <repo-name>
+
+## Step 7 – Open the Project in VS Code
+1. Open VS Code from Github Desktop
+2. Select the cloned repository folder **reddit-scraper**
+
+---
+
+## Step 8 – Install VS Code Extensions
+1. Open Extensions (Ctrl+Shift+X / Cmd+Shift+X)
+
+2. Install:
+- Python (Microsoft)
+- Jupyter (Microsoft)
+
+3. Reload VS Code if prompted.
+
+---
+
+## STEP 9 - RUN THE CODE
+1. Open **main_scraper.ipynb**
+2. Go to 🪜 **STEPS EXTRACT+DOWNLOAD**
+3. Run the code cell **🗃️ 1 - FIX EXTRACTION OF GIF CAROUSEL**
+3.1. type what you want to search
+3.2. type the filter
+3.3. type the period
+3.4. type the number of posts you want to extract and download
+4. Run the code cell **🗃️ 2 - MERGE MUTE VIDEOS with AUDIOS**
+
+---
+
+## STEP 10 - Use CSVs files & visual content
+1. All of the visual content files are in the repository directory `../data/visuals/`
+2. All of the `CSV`s files are in the repository directory `../data/reddit/`
+3. Use them however you like :-)
+---
